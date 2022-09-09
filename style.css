@@ -7,7 +7,7 @@
     --light-gray: hsl(204, 43%, 93%);
     --greyish-blue: hsl(218, 22%, 67%);
     --white: hsl(0, 0%, 100%);
-    --pink: hsl(334%, 92%, 56%);
+    --pink: hsl(334, 92%, 56%);
 }
 
 * {
