@@ -6,6 +6,8 @@
     --bright-yellow: hsl(71, 73%, 54%);
     --light-gray: hsl(204, 43%, 93%);
     --greyish-blue: hsl(218, 22%, 67%);
+    --white: hsl(0, 0%, 100%);
+    --dodgerblue: hsl(210%, 100%, 56%);
 }
 
 * {
@@ -35,7 +37,7 @@ main {
 }
 
 .community {
-    background-color: white;
+    background-color: var(--white);
 }
 
 .community h1 {
@@ -62,11 +64,11 @@ main {
 
 .subscription h1 {
     font-size: 1.2rem;
-    color: white;
+    color: var(--white);
 }
 
 figure {
-    color: white;
+    color: var(--white);
     font-size: 2rem;
     font-weight: 700;
     margin-right: 10px;
@@ -98,10 +100,10 @@ button {
     font-family: 'Karla', sans-serif;
 }
 .sign-up-btn a {
-    color: white;
+    color: var(--white);
 }
 button:hover {
-    background-color: dodgerblue;
+    background-color: var(--dodgerblue);
 }
 
 .why-us {
@@ -110,7 +112,7 @@ button:hover {
 }
 
 .why-us h1 {
-    color: white;
+    color: var(--white);
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
