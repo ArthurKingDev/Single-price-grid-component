@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop-design](https://github.com/ArthurKingDev/Single-price-grid-component/blob/main/screenhot(1).png)
+![desktop-desig](https://github.com/ArthurKingDev/Single-price-grid-component/blob/main/screenshot(1).png)
 
 ![mobile-design](https://github.com/ArthurKingDev/Single-price-grid-component/blob/main/screenhot.png)
 
