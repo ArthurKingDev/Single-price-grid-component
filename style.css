@@ -32,7 +32,7 @@ main{
 }
 
 .grid-container {
-    max-width: 310px;
+    max-width: 340px;
 }
 
 .community {
@@ -90,21 +90,15 @@ span {
     margin-bottom: 20px;
 }
 
-button {
+.sign-up-btn {
     background-color: var(--bright-yellow);
     border: none;
     border-radius: 5px;
-    width: 280px;
+    width: 285px;
     height: 40px;
     font-family: 'Karla', sans-serif;
-}
-
-.sign-up-btn a {
     color: white;
-}
-
-button:hover {
-    background-color: var(--pink);
+    cursor: pointer;
 }
 
 .why-us {
@@ -144,23 +138,25 @@ a {
     }
     
     .community {
-        padding: 30px 15px;
-        border-top-left-radius: 12px;
-        border-top-right-radius: 12px;
+        padding-block: 30px;
+        padding-left: 30px;
+        padding-right: 15px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
     }
 
     .subscription {
-        padding: 30px 15px; 
+        padding: 30px 30px; 
         border-bottom-left-radius: unset;
     }
 
     .why-us {
-        padding: 30px 15px;
-        border-bottom-left-radius: 12px;
-        border-bottom-right-radius: 12px;
+        padding: 30px 30px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
 }
-@media only screen and (min-width: 1440px)  {
+@media only screen and (min-width: 1000px)  {
 
     .grid-container {
         margin-top: 165px;
